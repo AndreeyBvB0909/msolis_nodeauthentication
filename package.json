@@ -1,0 +1,17 @@
+{
+  "name": "msolis_nodeauthentication",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AndreeyBvB0909/msolis_nodeauthentication.git",
+  "author": "Michael Solis Alvarado <85146774+AndreeyBvB0909@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.19.2"
+  },
+  "devDependencies": {
+    "standard": "17.1.0"
+  },
+  "eslintConfig": {
+    "extends": "standard"
+  }
+}
