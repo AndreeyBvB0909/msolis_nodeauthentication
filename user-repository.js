@@ -22,10 +22,10 @@ export class UserRepository {
     if (user) {
       throw new Error("El usuario ya existe");
     }
-    const _id = crypto.randomUUID();
+    const id = crypto.randomUUID();
 
-    User.create({ _id, username, password }).save();
-    return _id;
+    User.create({ _id:id, username, password }).save();
+    return id;
   }
   static login({ username, password }) {}
 }
